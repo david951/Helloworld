@@ -9,12 +9,13 @@ while n>a:
     a=a+1
 
 print lista1
-for i in range (n):
+for i in range (num):
     lista1[i]
-    if mayor<num:
-        mayor=num
+    if mayor<lista1[1]:
+        mayor=lista1[1]
 print mayor
 n=n+1
+
 
 
     
